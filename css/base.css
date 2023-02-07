@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  height: 100%;
+  max-height: 768px;
+  width: 100%;
+  max-width: 1280px;
+  background-image: url(/img/dobra-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+
+}
+
+.main-body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+
+}
+
+.main-adress {
+  display: block;
+  width: 625px;
+  height: 762px;
+
+}
+
+.-special {
+  font-weight: 400;
+  font-size: 0.75em;
+  line-height: .9375em;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 25em;
+  margin-left: 0.75em;
+  margin-right: auto;
+  margin-bottom: 0.75em;
+
+}
+
+.address {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.1875em;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 0.75em;
+  margin-right: auto;
+  margin-bottom: 0.75em;
+
+}
